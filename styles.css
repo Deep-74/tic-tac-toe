@@ -1,0 +1,50 @@
+nav{ background-color: black;
+    color: aliceblue; display: flex;
+         align-items: center;
+         justify-content: center; height: 7vh;
+}
+
+nav p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#a,#c,#d{
+    border-top: none;
+}
+#b,#e,#f{
+    border-bottom: none;
+}
+*{ 
+    margin: 0; padding: 0;
+}
+.container{ margin-top: 10vh;
+     background-color: rgb(236, 239, 239);
+    display: grid; 
+    
+    grid-template-columns: repeat(3,22vh);
+    grid-template-rows: repeat(3,22vh);  
+    justify-content: center; align-items: center;
+}
+
+
+.box{  padding: 1vh;
+    border: 0.1vh solid;
+    height: 20vh;
+  
+    display: flex;
+      align-items: center; justify-content: center;
+}
+.main{
+    display:flex; justify-content: center;
+    
+}
+
+.box:hover{
+    background-color: rgb(164, 215, 215);
+    cursor: pointer;
+}
+
+button{ cursor: pointer;
+    width: 10vh;
+    height: 5vh;
+}
